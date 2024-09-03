@@ -3,7 +3,7 @@ const aluguel_router = require("./routes/aluguel.js");
 const estudante_router = require("./routes/estudante.js");
 const livro_router = require("./routes/livro.js");
 
-const porta = 4000;
+const porta = 3255;
 const app = express();
 app.use(express.json());
 
